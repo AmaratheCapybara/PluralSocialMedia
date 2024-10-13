@@ -1,5 +1,5 @@
-import SimplyPluralSDK from './path-to-simply-sdk/lib/index.js';
-
+import {SimplyPluralSDK} from './path-to-simply-sdk/lib/index.js';
+import {  } from "module";
 
 // Simply Plural configuration
 
@@ -103,11 +103,4 @@ function switchMember(memberId) {
 
         .catch(error => console.error('Error switching member:', error));
 
-}
-
-if 
-auth.signInWithEmailAndPassword() || firebase.auth.GoogleauthProvider {
-    href: messaging.html
-    else
-    href: login.html
 }
