@@ -1,0 +1,62 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7fafc; /* Light neutral for a gentle feel */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 100%;
+}
+
+input[type="Name"], input[type="number"], input[type="text"], select, input[type="color"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #80c5de; /* Light blue */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #6699cc; /* Darker blue */
+}
+
+/* Label and Text Styling */
+h1, h4, p {
+    color: #004d66; /* Deep calming blue */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
