@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Messenger Clone</title>
+
+    <link rel="stylesheet" href="message.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Navbar top -->
+  <header class="navbar-top">
+    <div class="title">
+        <h1>Messaging</h1>
+    </div>
+    <img src="SystemChatLogo.svg" alt="Website Logo" class="top-left">
+
+    <!-- Navbar -->
+    <ul>
+        <li>
+            <a href="#Fronter">
+                <span class="icon-count">29</span>
+                <i class=""></i>
+            </a>
+        </li>
+        <li>
+            <a href="#switch">
+                <i class="fa-solid fa-repeat fa-2x"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#message">
+                <span class="icon-count">29</span>
+                <i class="fa fa-envelope fa-2x"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#notification">
+                <span class="icon-count">59</span>
+                <i class="fa fa-bell fa-2x"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#sign-out">
+                <i class="fa fa-sign-out-alt fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+    <!-- End -->
+</header>
+    <div class="messenger-container">
+
+        <!-- Sidebar for Contacts -->
+
+        <div class="sidebar">
+
+            <h2>Contacts</h2>
+            <a href="new-conversation">New  Conversation
+                <i class="fa-regular fa-address-book"></i>
+            </a>
+
+            <ul>
+
+                <li id="contact-1">Headmate</li>
+
+                <li id="contact-2">System friend</li>
+
+                <li id="contact-3">friend</li>
+
+            </ul>
+
+        </div>
+
+        <!-- Chat Window -->
+
+        <div class="chat-window">
+
+            <div class="chat-header">
+
+                <h3>Chat with Contact 1</h3>
+                <a href="#add-participant">
+                    <i class="fa-solid fa-plus"></i>
+                </a>
+            </div>
+
+            <div class="chat-body" id="chat-body">
+
+                <!-- Messages will appear here -->
+
+            </div>
+
+            <div class="chat-footer">
+
+                <input type="text" id="message-input" placeholder="Type a message..." />
+
+                <button id="send-button">Send</button>
+            </div>
+            <footer>
+            <section>Headmates in conversation</section>
+        <button>Headmate 1</button>
+        <button type="button">headmate 2</button>
+        <section>Fronters</section>
+        <button>Headmate 1</button>
+        <button type="button">headmate 3</button>
+        </footer>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/3865556534.js" crossorigin="anonymous"></script>
+    <script src="message.js"></script>
+
+</body>
+
+</html>
