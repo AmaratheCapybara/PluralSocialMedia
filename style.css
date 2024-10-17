@@ -65,7 +65,47 @@ body {
     padding: 2px;
     position: relative;
 }
+/* Notification window*/
+/* Notification dropdown */
+#notification {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #f1f1f1;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 100;
+  width: 300px; /* Set width for the notification window */
+}
 
+/* Notification styling when shown */
+#notification.show {
+  display: block;
+}
+
+/* Example list styling for notifications */
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+/* Adjust the icon size and position */
+li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
 /* End */
 
 /* Sidenav */
