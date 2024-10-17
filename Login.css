@@ -1,7 +1,7 @@
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f2f7fc; /* A light, calming blue */
+    background-color: #050C1D; /* space void */
     color: #333; /* Soft dark color for text */
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #d4ebf7; /* Very soft blue */
+    background-color: #77B602; /* greeen */
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -40,9 +40,9 @@ input[type="password"] {
     width: 200px;
 }
 
-button {
+input[type="submit"] {
     padding: 10px 20px;
-    background-color: #80c5de; /* Light blue */
+    background-color: #77B602; /* greeen */
     color: white;
     border: none;
     border-radius: 5px;
@@ -51,10 +51,9 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #6699cc; /* Darker blue on hover */
+input[type="submit"]:hover {
+    background-color: #F4A261; /* hover color*/
 }
-
 /* Main Content Styling */
 h1 {
     color: #004d66; /* Deep blue for headings */
