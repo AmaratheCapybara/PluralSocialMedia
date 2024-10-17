@@ -1,7 +1,7 @@
 /* General Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f2f7fc; /* Light, calming blue */
+    background-color: #050C1D; /* dark space feel */
     color: #333;
     margin: 0;
     padding: 0;
@@ -22,6 +22,10 @@ form {
     max-width: 100%;
 }
 
+input[type='color']{
+    height: 50px;
+}
+
 input[type="name"], input[type="Body's age"], input[type="Introduction"], select {
     padding: 10px;
     margin-bottom: 15px;
@@ -32,7 +36,7 @@ input[type="name"], input[type="Body's age"], input[type="Introduction"], select
 }
 
 input[type="submit"] {
-    background-color: #80c5de; /* Light blue */
+    background-color: #77B602; /* Green */
     color: white;
     border: none;
     padding: 10px;
@@ -44,13 +48,13 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #6699cc; /* Slightly darker blue on hover */
+    background-color: #F4A261; /* Correl active */
 }
 
 /* Label and Text Styling */
 label, p, h4 {
     margin-bottom: 10px;
-    color: #004d66; /* Calming deep blue */
+    color: #77B602; /* Green accents */
 }
 
 h1 {
