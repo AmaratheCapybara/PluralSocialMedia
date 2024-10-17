@@ -65,6 +65,55 @@ body {
     padding: 2px;
     position: relative;
 }
+
+/* Dropdown list for headmates (hidden by default) */
+#headmateDropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 10%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 100;
+  width: 200px;
+  overflow-y: scroll;
+}
+
+/* Show dropdown when triggered */
+#headmateDropdown.show {
+  display: block;
+}
+
+/* Styling for headmate list items */
+#headmateDropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#headmateDropdown ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#headmateDropdown ul li:last-child {
+  border-bottom: none;
+}
+
+/* Adjust the icon size and position */
+li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Notification window*/
 /* Notification dropdown */
 #notification {
