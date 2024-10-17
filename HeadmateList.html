@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headmate List</title>
+    <link rel="stylesheet" href="style.css"
+    !-- FontAwesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar top -->
+  <header class="navbar-top">
+    <div class="title">
+        <h1>Messaging</h1>
+    </div>
+    <img src="SystemChatLogo.svg" alt="Website Logo" class="top-left">
+
+    <!-- Navbar -->
+    <ul>
+        <li>
+            <a href="#Fronter">
+                <span class="icon-count">29</span>
+                <i class=""></i>
+            </a>
+        </li>
+        <li>
+            <a href="#switch" id="switchLink">
+                <i class="fa-solid fa-repeat fa-2x"></i>
+            </a>
+        </li>
+        <li>
+            <a href="message.html">
+                <span class="icon-count">29</span>
+                <i class="fa fa-envelope fa-2x"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#notification" id="notificationLink">
+                <span class="icon-count">59</span>
+                <i class="fa fa-bell fa-2x"></i>
+            </a>
+        </li>
+        <li>
+            <a href="login.html">
+                <i class="fa fa-sign-out-alt fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+    <!-- End -->
+ </header>
+    <!-- The dropdown list of headmates -->
+<div id="headmateDropdown">
+    <ul>
+        <li>Hope</li>
+        <li>Aurora</li>
+        <li>Ethan</li>
+        <li>Jenna</li>
+        <li>Meagan</li>
+        <li>Kirra</li>
+        <!-- Add more headmates as needed -->
+    </ul>
+</div>
+    
+<!-- The notification dropdown -->
+<div id="notification">
+    <div class="notification-item">Notification 1</div>
+    <div class="notification-item">Notification 2</div>
+    <div class="notification-item">Notification 3</div>
+</div>
+    <div class="container">
+        <h1>Headmate List</h1>
+        
+        <!-- Button to link to the headmate creation page -->
+        <button class="create-btn" onclick="window.location.href='Headmatecreation.html'">Add New Headmate</button>
+        
+        <!-- Headmate list -->
+        <ul id="headmate-list">
+            <li><a href="profiles/hope.html">Hope 🌺</a></li>
+            <li><a href="profiles/aurora.html">Aurora 🔣</a></li>
+            <li><a href="profiles/ethan.html">Ethan 🫠</a></li>
+            <li><a href="profiles/jenna.html">Jenna 🦢</a></li>
+            <li><a href="profiles/meagan.html">Meagan 🌻</a></li>
+            <li><a href="profiles/Jennifer.html">Jennifer</a></li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/3865556534.js" crossorigin="anonymous"></script
+</body>
+</html>
