@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    
+</head>
+<body>
+
+    <!-- Navbar top -->
+    <header class="navbar-top">
+        <div class="title">
+            <h1>Profile</h1>
+        </div>
+        <img src="SystemChatLogo.svg" alt="Website Logo" class="top-left">
+
+        <!-- Navbar -->
+        <ul>
+            <li>
+                <a href="#Fronter">
+                    <span class="icon-count">29</span>
+                    <i class=""></i>
+                </a>
+            </li>
+            <li>
+                <a href="#switch">
+                    <i class="fa-solid fa-repeat fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#message">
+                    <span class="icon-count">29</span>
+                    <i class="fa fa-envelope fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#notification">
+                    <span class="icon-count">59</span>
+                    <i class="fa fa-bell fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#sign-out">
+                    <i class="fa fa-sign-out-alt fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- End -->
+    </header>
+    <!-- End -->
+
+    <!-- Sidenav -->
+    <div class="sidenav">
+        <div class="profile">
+            <img src="https://imdezcode.files.wordpress.com/2020/02/imdezcode-logo.png" alt="" width="100" height="100">
+
+            <div class="name">
+                (Headmate Name)
+            </div>
+            <div class="handle">
+                @(Handle)
+            </div>
+            <div class="AccountName">
+                (System Name)
+            </div>
+            <div class="AccountHandle">
+                @(SystemHandle)
+            </div>
+        </div>
+
+        <div class="sidenav-url">
+            <div class="url">
+                <a href="#profile" class="active">Profile</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#settings">Settings</a>
+                <hr align="center">
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+
+    <!-- Main -->
+    <div class="main">
+       <overflow-y>
+         <h2>IDENTITY</h2>
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-pen fa-xs edit"></i>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td>ImDezCode</td>
+                        </tr>
+                        <tr>
+                            <td>Handle</td>
+                            <td>:</td>
+                            <td>@Handle</td>
+                        </tr>
+                        <tr>
+                            <td>Pronouns</td>
+                            <td>:</td>
+                            <td>She/Her</td>
+                        </tr>
+                        <tr>
+                            <td>Hobbies</td>
+                            <td>:</td>
+                            <td>Sewing, League of Legends</td>
+                        </tr>
+                        <tr>
+                            <td>Skill</td>
+                            <td>:</td>
+                            <td>CSS, HTML</td>
+                        </tr>
+                        <tr>
+                            <td>Bio</td>
+                            <td>:</td>
+                            <td>If you know me you know me.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h2>SOCIAL MEDIA</h2>
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-pen fa-xs edit"></i>
+                <div class="social-media">
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-invision fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-snapchat fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>COMETS/POST</h2>
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <input type="text" name="comet" id="comet" placeholder="what's on your mind?">
+                    <div class="image-upload">
+                        <label for="file-input">
+                            <i class=""></i> <!-- Image icon -->
+                        </label>
+                        <input id="file-input" type="file" name="image" accept="image/*"/> <!-- Image upload input -->
+                    </div>
+                <input type="submit" value="Update">
+            </form>
+                <section class="m-mrg" id="composer">
+                    <div id="c-tabs-cvr">
+                        <div class="tb" id="c-tabs"> 
+                          <div class="td active"><i class="fa-solid fa-signs-post"></i><span>Make Post</span></div>
+                          <div class="td" id="photo-video-upload">
+                            <i class="fa-solid fa-image fa-2x" id="uploadIcon"></i>
+                            <input type="file" id="fileInput" style="display:none;" accept="image/*,video/*">
+                            <span>Photo/Video</span>
+                          </div>
+                          <div class="td"><i class="material-icons">videocam</i><span>Live Video</span></div>
+                          <div class="td"><i class="material-icons">event</i><span>Life Event</span></div>
+                        </div>
+                      </div>
+                      <div id="c-c-main">
+                        <div class="tb">
+                          <div class="td" id="p-c-i"><img src="https://imagizer.imageshack.com/img921/3072/rqkhIb.jpg" alt="Profile pic"></div>
+                          <form class="td" id="c-inp">
+                            <input type="text" name= 'comet' id= 'comet' placeholder="What's on your mind?">
+                          </form>
+                        </div>
+                        <div id="insert_emoji"><i class="fa-regular fa-face-smile"></i></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="post">
+                        <div class="tb">
+                          <a href="#" class="td p-p-pic"><img src="https://imagizer.imageshack.com/img923/2452/zifFKH.jpg" alt="Rajeev's profile pic"></a>
+                          <div class="td p-r-hdr">
+                            <div class="p-u-info">
+                              <a href="#">Rajeev Singh</a> shared a memory with <a href="#">Himalaya Singh</a>
+                            </div>
+                            <div class="p-dt">
+                              <i class="material-icons">calendar_today</i>
+                              <span>January 28, 2015</span>
+                            </div>
+                          </div>
+                          <div class="td p-opt"><i class="material-icons">keyboard_arrow_down</i></div>
+                        </div>
+                        <a href="#" class="p-cnt-v">
+                          <img src="https://imagizer.imageshack.com/img923/8568/6LwtUa.jpg">
+                        </a>
+                        <div>
+                          <div class="p-acts">
+                            <div class="p-act like"><i class="fa-solid fa-thumbs-up"></i><span>25</span></div>
+                            <div class="p-act comment"><i class="fa-solid fa-comment"></i><span>1</span></div>
+                            <div class="p-act share"><i class="fa-solid fa-reply"></i></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="loading"><i class="material-icons">autorenew</i>
+                </section>
+        </div>
+    </overflow-y>
+    </div>
+    <!-- End -->
+    <script src="https://kit.fontawesome.com/3865556534.js" crossorigin="anonymous"></script>
+    <script src="ProfilePage.js"></script>
+</body>
+</html>
