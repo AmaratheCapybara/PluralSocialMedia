@@ -104,3 +104,30 @@ function switchMember(memberId) {
         .catch(error => console.error('Error switching member:', error));
 
 }
+
+  // Initialize Auth0
+        const auth0 = await createAuth0Client({
+            domain: "dev-ezwl8qr6z6ivlufs.us.auth0.com", //  Auth0 domain
+            client_id: "0yJGjvwGsilwZ9VcbeLzKlH0fFVEeJoT", //  Auth0 client ID
+            redirect_uri: window.location.origin // URL to redirect after login
+        });
+
+        // Login button functionality
+        document.getElementById('login').addEventListener('click', async () => {
+            await auth0.loginWithRedirect();
+        });
+
+        // Handle redirect after login
+        window.onload = async () => {
+            const query = window.location.search;
+            if (query.includes("code=") && query.includes("state=")) {
+                await auth0.handleRedirectCallback();
+                window.history.replaceState({}, document.title, "/");
+            }
+
+            const isAuthenticated = await auth0.isAuthenticated();
+            if (isAuthenticated) {
+                const user = await auth0.getUser();
+                document.getElementById('user-info').innerText = `Welcome, ${user.name}`;
+            }
+        };
