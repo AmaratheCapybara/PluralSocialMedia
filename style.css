@@ -107,6 +107,8 @@ li {
   list-style: none;
   position: relative;
   display: inline-block;
+  max-height: 50px;
+  width: auto;
 }
 
 a {
@@ -332,11 +334,14 @@ div.ex1 {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0px 3px 3px #ddd;
+    width: 90%;
   }
   
   #c-tabs-cvr {
     padding-bottom: 12px;
     border-bottom: 1px solid #818181;
+    display: inline;
+    position: relative;
   }
   
   #c-tabs {
@@ -347,7 +352,7 @@ div.ex1 {
   
   #c-tabs .td {
     position: static;
-    width: 1px;
+    width: 1%;
     padding: 0px 15px;
     white-space: pre;
     cursor: pointer;
@@ -430,15 +435,15 @@ div.ex1 {
   #c-inp {
     padding-left: 20px;
   }
-  
+ 
   #c-inp input {
     width: 100%;
     font-size: 20px;
     border: 0;
     padding: 0;
     margin: 0;
-  }
-  
+  } 
+
   #c-c-main input::placeholder {
     color: #666;
   }
@@ -462,6 +467,7 @@ div.ex1 {
     height: fit-content;
     background-color: #c8ff8a;
     box-shadow: 0px 3px 3px #ddd;
+    width: 90%;
   }
   
   .p-p-pic {
@@ -521,6 +527,7 @@ div.ex1 {
     display: block;
     margin: 20px -20px;
     cursor: pointer;
+    width: 90%;
   }
   
   .p-acts {

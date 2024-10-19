@@ -26,7 +26,7 @@
             <li>
                 <a href="#Fronter">
                     <span class="icon-count">29</span>
-                    <i class=""></i>
+                    <i class="#CurrentFronter"><img src="https://imagizer.imageshack.com/img921/3072/rqkhIb.jpg" alt="Profile pic" ></i>
                 </a>
             </li>
             <li>
@@ -57,10 +57,12 @@
         <!-- The dropdown list of headmates -->
     <div id="headmateDropdown">
         <ul>
-            <li>Headmate1</li>
-            <li>Headmate2</li>
-            <li>Headmate3</li>
-            <li>Headmate4</li>
+            <li>Current Fronters
+            
+            </li>
+            <li>Recent Fronters</li>
+            <li>Subsystem1</li>
+            <li>Subsystem2</li>
             <li>Headmate5</li>
             <li>Headmate6</li>
             <!-- Add more headmates as needed -->
@@ -79,8 +81,8 @@
     <!-- Sidenav -->
     <div class="sidenav">
         <div class="profile">
-            <img src="https://imdezcode.files.wordpress.com/2020/02/imdezcode-logo.png" alt="" width="100" height="100">
-
+            <img src="https://imagizer.imageshack.com/img921/3072/rqkhIb.jpg" alt="Profile Pic" width="100" height="100">
+        
             <div class="name">
                 (Headmate Name)
             </div>
@@ -97,20 +99,32 @@
 
         <div class="sidenav-url">
             <div class="url">
-                <a href="#profile" class="active">Profile</a>
+                <a href="ProfilePage.html" class="active">Profile</a>
                 <hr align="center">
             </div>
             <div class="url">
-                <a href="#systemProfile"> System Profile</a>
+                <a href="#SystemProfile.html">System Profile</a>
                 <hr align="center">
             </div>
             <div class="url">
-                <a href="#friends"> Friends</a>
+                <a href="#SystemProfile.html">Subsystems</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="ProfileGroupsList.html">Groups</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="HeadmateList.html">Headmates</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#FriendsList.html"> Friends</a>
                 <hr align="center">
             </div>
 
             <div class="url">
-                <a href="#settings">Settings</a>
+                <a href="#settings.html">Settings</a>
                 <hr align="center">
             </div>
         </div>
@@ -201,27 +215,22 @@
             <h2>COMETS/POST</h2>
         <div class="card">
             <div class="card-body">
-                <form>
-                    <input type="text" name="comet" id="comet" placeholder="what's on your mind?">
-                    <div class="image-upload">
-                        <label for="file-input">
-                            <i class=""></i> <!-- Image icon -->
-                        </label>
-                        <input id="file-input" type="file" name="image" accept="image/*"/> <!-- Image upload input -->
-                    </div>
-                <input type="submit" value="Update">
-            </form>
+                
                 <section class="m-mrg" id="composer">
                     <div id="c-tabs-cvr">
                         <div class="tb" id="c-tabs"> 
-                          <div class="td active"><i class="fa-solid fa-signs-post"></i><span>Make Post</span></div>
+                          <form action="Comet">
+                            <div class="td active">
+                                <i class="fa-solid fa-signs-post"></i>
+                                <span>Make Post</span>
+                            </div>
                           <div class="td" id="photo-video-upload">
                             <i class="fa-solid fa-image fa-2x" id="uploadIcon"></i>
                             <input type="file" id="fileInput" style="display:none;" accept="image/*,video/*">
                             <span>Photo/Video</span>
                           </div>
-                          <div class="td"><i class="material-icons">videocam</i><span>Live Video</span></div>
-                          <div class="td"><i class="material-icons">event</i><span>Life Event</span></div>
+                          <div class="td"><i class="fa-solid fa-list"></i><span>Poll</span></div>
+                          <div class="td"><i class="fa-solid fa-calendar-days"></i><span>Event</span></div>
                         </div>
                       </div>
                       <div id="c-c-main">
@@ -247,10 +256,10 @@
                               <span>January 28, 2015</span>
                             </div>
                           </div>
-                          <div class="td p-opt"><i class="material-icons">keyboard_arrow_down</i></div>
+                          <div class="td p-opt"><i class="material-icons"></i></div>
                         </div>
                         <a href="#" class="p-cnt-v">
-                          <img src="https://imagizer.imageshack.com/img923/8568/6LwtUa.jpg">
+                          <img src="https://imagizer.imageshack.com/img923/8568/6LwtUa.jpg" width="100%" >
                         </a>
                         <div>
                           <div class="p-acts">
