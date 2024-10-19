@@ -30,7 +30,7 @@ setTimeout(() => {
 }, 5000); // Auto-hide after 5 seconds (optional)
 
 //Fronting
-function Fronting {
+function Fronting () {
 if (frontstatus ()=true)
     Headmate = fronting
 else (frontstatus()=false)
