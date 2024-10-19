@@ -14,7 +14,7 @@ body {
 
 /* Form Styling */
 form {
-    background-color: #ffffff;
+    background-color: #77B602;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@ input[type="Name"], input[type="number"], input[type="text"], select, input[type
 }
 
 input[type="submit"] {
-    background-color: #80c5de; /* Light blue */
+    background-color:  #B4D2FF; /* Light blue */
     color: white;
     border: none;
     padding: 10px;
@@ -44,12 +44,12 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #6699cc; /* Darker blue */
+    background-color: #F4A261; /* Darker blue */
 }
 
 /* Label and Text Styling */
 h1, h4, p {
-    color: #004d66; /* Deep calming blue */
+    color: #ffffff; /* Deep calming blue */
 }
 
 h1 {
