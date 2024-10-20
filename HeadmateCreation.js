@@ -1,3 +1,6 @@
+import {
+    Headmate,
+        } from 'index.js'
 //retrieve Variable from Form input
 const Name = document.querySelector ('Name');
 const ProfilePic = document.querySelector ("ProfilePic")
@@ -13,31 +16,31 @@ const Bio = document.querySelector ("Bio")
 function CreateProfile () {
     generateSocialID;
     if (AccountType= 'Singlet')
-        HeadmateID=0;
+        ProfileID=0;
         SetProfileType;
         Fictive = false;
         Introject = false;
         Age = BodyAge
     if ((AccountType= 'System') && (HeadmateCount = 0))
-        HeadmateID = 0;
+        ProfileID = 0;
         Fictive = false;
         Introject = false;
         Age = BodyAge
 
     else {
-        generateHeadmateID
+        generateProfileID
         GiveSystemGroupID
-        HeadmateCount + 1
+        HeadmateCount = counter + 1
     }
     
 }
     // generate account friend code
 function generateSocialID(){
-    crypto.randomUUID () = SocialID
+    crypto.randomUUID () = this.SocialID
 }
     // generate headmate ID
-function generateHeadmateID (){
-    crypto.randomUUID () = HeadmateID
+function generateProfileID (){
+    crypto.randomUUID () = this.ProfileID
 }
     //GiveSystemGroupID
 function GiveSystemGroupID(){
@@ -57,7 +60,7 @@ if (AgeRange = 'Teen' || Age < 18 && Age > 12) {
 class Profile {
     constructor
     'Name':localStorage.setItem('name');
-    'HeadmateID': localStorage.setItem('HeadmateID'),
+    'ProfileID': localStorage.setItem('ProfileID'),
     'SocialID': localStorage.setItem('SocialID'),
     'ProfilePic': localStorage.setItem('ProfilePic'),
     'FavoriteColor':localStorage.SetItem('FavoriteColor'),

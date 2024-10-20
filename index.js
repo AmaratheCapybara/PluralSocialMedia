@@ -1,5 +1,5 @@
 //Import and export
-export Headmate, Profile
+export {Headmate, Profile, Friend, Group, Fronter, Account, Subsystem}
 //navbar
 
 // Get the link and switch dropdown elements
@@ -40,14 +40,14 @@ else (frontstatus()=false)
 
 // define classes
 class Account {
-    constructor(AccountType, AccountName, SystemType, BodyAge, Bio) {
+    constructor(AccountType, AccountName, SystemType, BodyAge, Bio, HeadmateCount) {
         
     }
 }
-class Headmate {
-    constructor(Name, Age, HeadmateID, FavoriteColor, AgeRange, Introject, Fictive, Subsystem, System, Profile) {
+export class Headmate {
+    constructor(Name, Age, ProfileID, FavoriteColor, AgeRange, Introject, Fictive, Subsystem, System, Profile) {
         this.Name = Name
-        this.HeadmateID = HeadmateID
+        this.ProfileID = ProfileID
         this.FavoriteColor= FavoriteColor
         this.Age= Age
         this.AgeRange= AgeRange
@@ -91,3 +91,24 @@ class Profile {
         this.Bio= Bio
     }
 }
+// declare variables
+const BodyAge = document.getElementById('BodyAge')
+const Age = document.getElementById('')
+const Name = document.getElementById('')
+const AccountName = document.getElementById(
+const Singlet = document.getElementById('')
+const Headmate = document.getElementById('')
+// type of account
+const System = Boolean
+const Little = Boolean
+const Adolescent = Boolean
+const Fictive =Boolean
+const Adult
+const Eternal
+const AgeSlider
+const password
+const email
+const AgeRange = document.getElementById('')
+const FavoriteColor = document.getElementById('')
+const ProfileType = document.getElementById('')
+const Fronting = Boolean
