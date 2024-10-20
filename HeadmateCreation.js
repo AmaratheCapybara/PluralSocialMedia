@@ -34,7 +34,7 @@ if (AgeRange = 'Teen' || Age < 18 && Age > 12) {
 }   
 }
 //Storing HeadmateProfile
-let HeadmateProfile = {
+let Profile = {
     'Name':localStorage.setItem('name'),
     'HeadmateID': localStorage.setItem('HeadmateID'),
     'SocialID': localStorage.setItem('SocialID'),
