@@ -53,6 +53,7 @@ class Headmate {
         this.Introject = Introject
         this.Subsystem= Subsystem
         this.System= System
+        this.Profile = Profile
 
     }
 }
