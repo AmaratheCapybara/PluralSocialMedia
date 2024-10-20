@@ -39,7 +39,7 @@ let HeadmateProfile = {
     'HeadmateID': localStorage.setItem('HeadmateID'),
     'SocialID': localStorage.setItem('SocialID'),
     'ProfilePic': localStorage.setItem('ProfilePic'),
-    'FavoriteColor':localStorage.SetItem('ProfilePic'),
+    'FavoriteColor':localStorage.SetItem('FavoriteColor'),
     'Age': localStorage.setItem('Age'),
     'AgeRange': localStorage.setItem('AgeRange'),
     'Fictive': localStorage.setItem ('Fictive'),
