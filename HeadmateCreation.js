@@ -69,3 +69,4 @@ let Profile = {
     'System': localStorage.setItem('System',0)
 
 }
+'Profile',localStorage.setItem('Profile')
