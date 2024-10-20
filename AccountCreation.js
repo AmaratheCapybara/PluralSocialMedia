@@ -74,7 +74,7 @@ document.getElementById("AccountCreation").onsubmit = function(event) {
     if (AccountType = 'Singlet') { 
         window.location.href = "ProfilePage.html";  // redirects to profile game
     }
-    if ((AccountType= 'System') && (SystemType = 'Polyfrag')) {
+    if ((AccountType= 'System') && (SystemType = 'Polyfrag')) { // if the system type is Polyfrag and account type is system then The system is directed to create subsystems
         window.location.href = "SubsystemCreation.html"
     }
     if (AccountType = 'System') {
