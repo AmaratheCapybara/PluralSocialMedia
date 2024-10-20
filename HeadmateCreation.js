@@ -18,7 +18,7 @@ function CreateProfile () {
         Fictive = false;
         Introject = false;
         Age = BodyAge
-    if (AccountType= 'System' && HeadmateCount = 0)
+    if ((AccountType= 'System') && (HeadmateCount = 0))
         HeadmateID = 0;
         Fictive = false;
         Introject = false;

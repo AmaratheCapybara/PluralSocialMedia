@@ -54,7 +54,7 @@ const SystemType = document.querySelector ('SystemType')
 
 //declaring Account types
 AccountType = ['Singlet', 'System']
-
+SystemType = ['Polyfrag', 'Median']
 // storing Account Profile
 let AccountProfile= {
     'AccountType': localStorage.setItem('AccountType'),
@@ -63,7 +63,7 @@ let AccountProfile= {
 }
 
 //What happens when Account Creation is submitted
-document.getElementById("mAccountCreation").onsubmit = function(event) {
+document.getElementById("AccountCreation").onsubmit = function(event) {
     event.preventDefault();  // This stops the form from doing the default action (like reloading the page)
     CreateProfile();            // Call the function you want to run
   };
@@ -74,7 +74,7 @@ document.getElementById("mAccountCreation").onsubmit = function(event) {
     if (AccountType = 'Singlet') { 
         window.location.href = "ProfilePage.html";  // redirects to profile game
     }
-    if (AccountType= 'System' && SystemType = 'Polyfrag') {
+    if ((AccountType= 'System') && (SystemType = 'Polyfrag')) {
         window.location.href = "SubsystemCreation.html"
     }
     if (AccountType = 'System') {
