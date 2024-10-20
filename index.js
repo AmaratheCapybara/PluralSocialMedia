@@ -35,3 +35,56 @@ if (frontstatus ()=true)
     Headmate = fronting
 else (frontstatus()=false)
 }
+
+// define classes
+class Account {
+    constructor(parameters) {
+        
+    }
+}
+class Headmate {
+    constructor(Name, Age, HeadmateID, SocialID, ProfilePic, FavoriteColor, AgeRange, Introject, Fictive, Bio, Subsystem, System) {
+        this.HeadmateID = HeadmateID
+        this.SocialID= SocialID
+        this.ProfilePic= ProfilePic
+        this.FavoriteColor= FavoriteColor
+        this.Age= Age
+        this.AgeRange= AgeRange
+        this.Fictive = Fictive
+        this.Introject = Introject
+        this.Bio= Bio
+        this.Subsystem= Subsystem
+        this.System= System
+
+    }
+}
+class Friend {
+    constructor(parameters) {
+        
+    }
+}
+class Group {
+    constructor(parameters) {
+        
+    }
+}
+class Subsystem {
+    constructor(parameters) {
+        
+    }
+}
+class ConversationParticipant {
+    constructor(parameters) {
+        
+    }
+}
+class Fronter {
+    constructor(parameters) {
+        
+    }
+}
+class Profile {
+    constructor(Feed, Friends, Messages, Notifications, Settings) {
+        
+    }
+}
