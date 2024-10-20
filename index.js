@@ -38,19 +38,19 @@ else (frontstatus()=false)
 
 // define classes
 class Account {
-    constructor(parameters) {
+    constructor(AccountType, AccountName, SystemType, BodyAge, Bio) {
         
     }
 }
 class Headmate {
-    constructor(Name, Age, HeadmateID, FavoriteColor, AgeRange, Introject, Fictive, Bio, Subsystem, System) {
+    constructor(Name, Age, HeadmateID, FavoriteColor, AgeRange, Introject, Fictive, Subsystem, System, Profile) {
+        this.Name = Name
         this.HeadmateID = HeadmateID
         this.FavoriteColor= FavoriteColor
         this.Age= Age
         this.AgeRange= AgeRange
         this.Fictive = Fictive
         this.Introject = Introject
-        this.Bio= Bio
         this.Subsystem= Subsystem
         this.System= System
 
@@ -82,8 +82,9 @@ class Fronter {
     }
 }
 class Profile {
-    constructor(SocialID, ProfilePic, Feed, Friends, Messages, Notifications, Fronting, Settings) {
+    constructor(SocialID, ProfilePic, Feed, Friends, Messages, Notifications, Fronting, Bio, Settings) {
         this.SocialID= SocialID
         this.ProfilePic= ProfilePic 
+        this.Bio= Bio
     }
 }
