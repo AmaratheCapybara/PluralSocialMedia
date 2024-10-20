@@ -1,0 +1,3 @@
+.env # individual file
+node_modules/ # folder
+# etc etc, other lines of files you don't want on git
