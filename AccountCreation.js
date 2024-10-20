@@ -13,18 +13,19 @@ connectDB();
 
 // Define a route to handle account creation
 app.post('/create-account', async (req, res) => {
-    const { accountName, bodyAge, accountType, introduction } = req.body; // account name is lowercased here. I think it needs to be fixed
+    const { AccountName, bodyAge, AccountType, introduction } = req.body; // account name is lowercased here. I think it needs to be fixed
 
     // Validate input
-    if (!accountName || !bodyAge || !accountType || !introduction) {
+    if (!AccountName || !bodyAge || !AccountType || !introduction) {
         return res.status(400).json({ message: 'All fields are required.' });
     }
 
     // Create user object
     const newUser = {
-        accountName,
+        AccountName,
+        
         bodyAge: parseInt(bodyAge, 10), // Convert to number (can we change to only conver to number if individual ages with the body?)
-        accountType,
+        AccountType,
         introduction,
         createdAt: new Date(),
     };
