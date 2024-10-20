@@ -27,6 +27,7 @@ function CreateProfile () {
     else {
         generateHeadmateID
         GiveSystemGroupID
+        HeadmateCount + 1
     }
     
 }
