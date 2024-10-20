@@ -10,7 +10,18 @@ const Bio = document.querySelector ("Bio")
 // create options for variables
     ProfileType = ['Planet', 'Moon', 'Star', 'Satellite']
 // create new Profile
-
+function CreateProfile () {
+    if (AccountType= 'Singlet')
+        generateSocialID;
+        HeadmateID=0;
+        SetProfileType;
+        Fictive = false;
+        Introject = false;
+        Age = BodyAge
+    if (AccountType= 'System')
+    generateHeadmateID
+    GiveSystemGroupID
+}
     // generate account friend code
 function generateSocialID(){
     crypto.randomUUID () = SocialID
