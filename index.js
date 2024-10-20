@@ -1,3 +1,5 @@
+//Import and export
+export Headmate, Profile
 //navbar
 
 // Get the link and switch dropdown elements
