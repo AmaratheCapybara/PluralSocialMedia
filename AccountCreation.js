@@ -44,3 +44,14 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
+
+//retrieve input from AccountCreation Form
+
+//declaring Account types
+AccountType = ['Singlet', 'System']
+
+// storing Account Profile
+let AccountProfile= {
+    'AccountType': localStorage.setItem('AccountType'
+    )
+}
