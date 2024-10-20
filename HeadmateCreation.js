@@ -1,3 +1,4 @@
+//retrieve Variable from Form input
 const Name = document.querySelector ('Name');
 const ProfilePic = document.querySelector ("ProfilePic")
 const FavoriteColor = document.querySelector ('FavoriteColor')
