@@ -43,10 +43,8 @@ class Account {
     }
 }
 class Headmate {
-    constructor(Name, Age, HeadmateID, SocialID, ProfilePic, FavoriteColor, AgeRange, Introject, Fictive, Bio, Subsystem, System) {
+    constructor(Name, Age, HeadmateID, FavoriteColor, AgeRange, Introject, Fictive, Bio, Subsystem, System) {
         this.HeadmateID = HeadmateID
-        this.SocialID= SocialID
-        this.ProfilePic= ProfilePic
         this.FavoriteColor= FavoriteColor
         this.Age= Age
         this.AgeRange= AgeRange
@@ -84,7 +82,8 @@ class Fronter {
     }
 }
 class Profile {
-    constructor(Feed, Friends, Messages, Notifications, Settings) {
-        
+    constructor(SocialID, ProfilePic, Feed, Friends, Messages, Notifications, Fronting, Settings) {
+        this.SocialID= SocialID
+        this.ProfilePic= ProfilePic 
     }
 }
