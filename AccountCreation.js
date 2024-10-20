@@ -13,7 +13,7 @@ connectDB();
 
 // Define a route to handle account creation
 app.post('/create-account', async (req, res) => {
-    const { accountName, bodyAge, accountType, introduction } = req.body;
+    const { accountName, bodyAge, accountType, introduction } = req.body; // account name is lowercased here. I think it needs to be fixed
 
     // Validate input
     if (!accountName || !bodyAge || !accountType || !introduction) {
@@ -46,12 +46,38 @@ app.listen(PORT, () => {
 });
 
 //retrieve input from AccountCreation Form
+const AccountType = document.querySelector ('AccountType');
+const AccountName = document.querySelector ('AccountName');
+const BodyAge = document.querySelector ('BodyAge');
+const Bio = document.querySelector ('Bio');
+const SystemType = document.querySelector ('SystemType')
 
 //declaring Account types
 AccountType = ['Singlet', 'System']
 
 // storing Account Profile
 let AccountProfile= {
-    'AccountType': localStorage.setItem('AccountType'
-    )
+    'AccountType': localStorage.setItem('AccountType'),
+    'AccountName': localStorage.setItem('AccountName'),
+    'BodyAge': localStorage.setItem('BodyAge')
 }
+
+//What happens when Account Creation is submitted
+document.getElementById("mAccountCreation").onsubmit = function(event) {
+    event.preventDefault();  // This stops the form from doing the default action (like reloading the page)
+    CreateProfile();            // Call the function you want to run
+  };
+
+  function myFunction() {
+    // This is the function that runs when the form is submitted
+    alert('Form has been submitted!');
+    if (AccountType = 'Singlet') { 
+        window.location.href = "ProfilePage.html";  // redirects to profile game
+    }
+    if (AccountType= 'System' && SystemType = 'Polyfrag') {
+        window.location.href = "SubsystemCreation.html"
+    }
+    if (AccountType = 'System') {
+        window.location.href = "HeadmateCreation.html";  // redirects to headmate creation
+    }
+    }
