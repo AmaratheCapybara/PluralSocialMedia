@@ -23,7 +23,7 @@ app.post('/create-account', async (req, res) => {
     // Create user object
     const newUser = {
         AccountName,
-        bodyAge: parseInt(bodyAge, 10), // Convert to number (can we change to only conver to number if individual ages with the body?)
+        bodyAge, // Convert to number (can we change to only conver to number if individual ages with the body?)
         AccountType,
         introduction,
         createdAt: new Date(),
